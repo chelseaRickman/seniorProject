@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Sacramento&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat:wght@300&family=Sacramento&display=swap);
+
+.main-title-font {
+  font-family: "Sacramento", cursive;
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.main-paragraph-font {
+  font-family: "Montserrat", sans-serif;
+}
+
+@layer components {
+  .navbar-links {
+    @apply inline-flex space-x-2;
+  }
+
+  .social-links {
+    @apply inline-flex space-x-2;
+  }
+
+  .social-icon {
+    @apply fill-current text-indigo-500 h-10 w-10;
+  }
+}
