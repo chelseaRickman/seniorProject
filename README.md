@@ -28,7 +28,8 @@ The photographer needs a website that does the following:
 - Created a team Confluence page to keep track of our project documentation and weekly team reports we need to submit
 
 ## How to Run Program
-<p> Currently the frontend (GatsbyJS application) is not deployed, but you can download the code and run the app in development mode locally to view the site
+<p> Currently the frontend (GatsbyJS application) is not deployed, but you can download the code and run the app in development mode locally to view the site</p>
+
 - Go to repo home page: https://github.com/chelseaRickman/seniorProject
 - Click on the green "Code" button
 - Select "Download ZIP"
