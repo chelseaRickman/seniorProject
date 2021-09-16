@@ -1,12 +1,15 @@
-# Photography Website - Senior Project (In Progress)
+# Photography Website - Senior Project
+
+## Deployed website URL
+https://photography-website-1dca4.web.app/
 
 ## About the Senior Project
-In our Senior Project class, each student (19 students) had to pitch an idea for a project a team of 3-4 students could work on throughout two quarters. From these 19 projects, 6 projects were selected. The photography website was the idea I pitched because I wanted to learn and gain experience with working on a full-stack web application. This project was selected, so two other students and I are currently working on this project which is to be completed in June 2021. 
+In our Senior Project class, each student (19 students) had to pitch an idea for a project a team of 3-4 students could work on throughout two quarters. From these 19 projects, 6 projects were selected. The photography website was the idea I pitched because I wanted to learn and gain experience with working on a full-stack web application. This project was selected, so two other students and I worked on this project together 
 
 ## Technologies
 - Frontend: GatsbyJS/React
-- Backend: Sanity CMS
-- Hosting: Usings Sanity's hosting service for the backend, currently do not have the frontend hosted yet.
+- Backend: Contentful CMS
+- Hosting: Firebase for the frontend, Contentful's hosting for the backend
 
 ## Project Description
 ### What is the project?
@@ -22,10 +25,15 @@ The photographer needs a website that does the following:
 - Allows the photographer to update the content of their website (i.e. upload new photos or blog posts)
 
 ## My Contributions to the Project
-- Created an initial layout for the About, Blog, and Contact pages of the site. 
-- Deployed the Sanity CMS and added content
-- On the Blog page, fetched data from the Sanity CMS and updated the state of the page using that data dynamically
-- Created a team Confluence page to keep track of our project documentation and weekly team reports we need to submit
+- Created the page layout on the About, Portfolio, Blog, and Contact pages
+- Created the Blog page preview and Customer Reviews components on the Home page
+- Created the footer of site that would in theory link to the photographer's personal instagram posts
+- Created the "hamburger" navigation menu that appears on smaller screen sizes
+- Created the photographer logo (the larger one that appears within the header of the site, and the smaller version that appears within the footer of the site)
+- Wrote a fake description of the photographer on the About page
+- Implemented a consistent color scheme and fonts used throughout the site
+- On the Blog page, fetched data from the Contentful CMS and updated the state of the page using that data dynamically
+- Created a team Confluence page to keep track of our project documentation and weekly team reports we needed to submit
 
 ## How to Run Program
 <p> Currently the frontend (GatsbyJS application) is not deployed, but you can download the code and run the app in development mode locally to view the site</p>
